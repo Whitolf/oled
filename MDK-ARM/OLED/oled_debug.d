@@ -1,0 +1,10 @@
+oled\oled_debug.o: ..\oledlib\oled_debug.c
+oled\oled_debug.o: ..\oledlib\oled_debug.h
+oled\oled_debug.o: ..\oledlib\oled_font.h
+oled\oled_debug.o: ..\oledlib\oled_config.h
+oled\oled_debug.o: ..\oledlib\oled_basic.h
+oled\oled_debug.o: ..\oledlib\oled_draw.h
+oled\oled_debug.o: ..\oledlib\oled_color.h
+oled\oled_debug.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+oled\oled_debug.o: E:\keil5\ARM\ARMCC\Bin\..\include\string.h
+oled\oled_debug.o: E:\keil5\ARM\ARMCC\Bin\..\include\stdarg.h

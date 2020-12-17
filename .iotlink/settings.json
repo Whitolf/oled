@@ -1,0 +1,20 @@
+{
+    "compiler": {
+        "path": "${system_default}",
+        "prefix": "arm-none-eabi",
+        "makefile": "Makefile",
+        "makeparam": "-j"
+    },
+    "debugger": {
+        "adapter": "OpenOCD",
+        "openocdPath": "${system_default}",
+        "openocdOption": "-f interface/cmsis-dap.cfg -f target/stm32f1x.cfg",
+        "interface": "SWD",
+        "deviceName": "STM32F429IG",
+        "loadAddress": "0x08000000",
+        "verify": true,
+        "binfile": "build\\OLED.elf"
+    },
+    "general": {},
+    "version": "1.0.0"
+}
